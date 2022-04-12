@@ -6,4 +6,5 @@ numpy==1.20.1
 joblib==1.1.0
 click==8.0.4
 tflite-support==0.3.1
+tracking-util==0.1.1
 scikit-learn
