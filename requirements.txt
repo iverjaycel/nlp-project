@@ -8,3 +8,4 @@ click==8.0.4
 tflite-support==0.3.1
 tracking-util==0.1.1
 scikit-learn
+opencv-python==4.5.5.64
