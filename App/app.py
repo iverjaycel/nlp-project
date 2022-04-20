@@ -31,7 +31,7 @@ emotions_emoji_dict = {"anger":"😠","disgust":"🤮", "fear":"😨😱", "happ
 # Main Application
 def main():
 	st.title("Emotion Detection App")
-	menu = ["Home","About"]
+	#menu = ["Home","About"]
 	choice = st.sidebar.selectbox("Menu",menu)
 	create_page_visited_table()
 	create_emotionclf_table()
