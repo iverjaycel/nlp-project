@@ -8,23 +8,24 @@ https://iverjaycel-capstone2-streamlit-app-wy5xs1.streamlitapp.com/
 ![[Pasted image 20220422125432.png]]
 # Data preparation
 Remove all username using this 
-![[Pasted image 20220422123931.png]]
+![image](https://user-images.githubusercontent.com/53965169/218959805-d997f7b5-18db-41a9-a86d-2406ba4b3030.png)
 “stop words” usually refers to the most common words in a language.
-![[Pasted image 20220422124102.png]]
 remove special characters
-![[Pasted image 20220422124120.png]]
 # BUILD MODEL/PIPELINE
 Built the model using linear mdoel logistic regression 
-![[Pasted image 20220422124501.png]]
+![image](https://user-images.githubusercontent.com/53965169/218959975-14320ad3-93f6-46ee-a980-3bf9416eabe3.png)
+
 Data splitting, or commonly known as train-test split, is the partitioning of data into subsets for model training and evaluation separately.
 ## split before making the model
-![[Pasted image 20220422124545.png]]
-The purpose of the pipeline is to assemble several steps that can be cross-validated together while setting different parameters. For this, it enables setting parameters of the various steps using their names and the parameter name separated by a `'__'`, as in the example below. A step’s estimator may be replaced entirely by setting the parameter with its name to another estimator, or a transformer removed by setting it to `'passthrough'` or `None`.
+![image](https://user-images.githubusercontent.com/53965169/218960037-c9b793d4-a349-41d9-ac40-5506c86593a9.png)
+
+The purpose of the pipeline is to assemble several steps that can be cross-validated together while setting different parameters. For this, it enables setting parameters of the various steps using their names and the parameter name separated by a `'__'`, as in the example below. A step’s estimator may be replaced entirely by setting the parameter with its name to another estimator, or a transformer removed by setting it to `'passthrough'` or `None`.
 logistic regression pipeline
   
 the estimator and  then the transformer
 transforemer count vectorizer LogisticRegression model r
-![[Pasted image 20220422125121.png]]
+![image](https://user-images.githubusercontent.com/53965169/218960115-0617f036-92d9-4314-b74d-ad6b35530768.png)
+
 Training data is also known as training dataset, learning set, and training set. It's an essential component of every machine learning model and helps them make accurate predictions or perform a desired task.
 Simply put, training data builds the machine learning model. It teaches what the expected output looks like. The model analyzes the dataset repeatedly to deeply understand its characteristics and adjust itself for better performance.
 ![[Pasted image 20220422125145.png]]
