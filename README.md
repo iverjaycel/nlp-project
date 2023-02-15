@@ -28,15 +28,10 @@ transforemer count vectorizer LogisticRegression model r
 
 Training data is also known as training dataset, learning set, and training set. It's an essential component of every machine learning model and helps them make accurate predictions or perform a desired task.
 Simply put, training data builds the machine learning model. It teaches what the expected output looks like. The model analyzes the dataset repeatedly to deeply understand its characteristics and adjust itself for better performance.
-![[Pasted image 20220422125145.png]]
 Checking the accuracy
-![[Pasted image 20220422125247.png]]
+![image](https://user-images.githubusercontent.com/53965169/218960394-a6a735c5-1faa-4bf6-b6dc-17077bcb7f52.png)
 
-![[Pasted image 20220422125321.png]]
-
-![[Pasted image 20220422125338.png]]
-
-![[Pasted image 20220422125357.png]]
+![image](https://user-images.githubusercontent.com/53965169/218960470-f8e3f78e-7c4d-46ee-95e6-4e24b941b977.png)
 ### What is pickling?[](https://flynn.gg/blog/machine-learning-model-serialization/#what-is-pickling)
 
 Pickling is a way to write Python objects to a bytestream, which can then be written to disk as a file. One can take this file and load it back into a separate Python interpreter at a later date, recovering the objects from the previous session.
@@ -69,11 +64,13 @@ The `pickle` module can save and load class instances. However, when deseriali
 ### joblib[](https://flynn.gg/blog/machine-learning-model-serialization/#joblib)
 
 The `joblib` package provides `dump` and `load` functions for serializing Python objects, with particular optimizations for large `numpy` arrays. It is intended to be a drop-in replacement for pickle and can be effective for `sklearn` models which store lots of data internally, such as random forest or cluster-based classifiers.
-![[Pasted image 20220422125618.png]]
+![image](https://user-images.githubusercontent.com/53965169/218960598-befe2447-0283-4623-9be1-3e1408bc2824.png)
+
 # Configure mode to streamlit
-![[Pasted image 20220422125921.png]]
+![image](https://user-images.githubusercontent.com/53965169/218960642-2a24fe04-920b-4148-a3f0-248de1391499.png)
+![image](https://user-images.githubusercontent.com/53965169/218960740-d0930e50-1c74-4ed1-8aa9-2b27c514f3bb.png)
+
 Max number of array is used to get confidence
-![[Pasted image 20220422132214.png]]
 
 # Delpoy the model in the web
 Using github to push thru streamlit.io for deployment 
