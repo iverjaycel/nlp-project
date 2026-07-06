@@ -2,8 +2,8 @@
 End 2 End NLP Project with Python
 
 
-https://iverjaycel-capstone2-streamlit-app-wy5xs1.streamlitapp.com/
-
+[https://iverjaycel-capstone2-streamlit-app-wy5xs1.streamlitapp.com/
+](https://nlp-project-jqgpnod6pzgrzy33edamfm.streamlit.app/)
 
 ![[Pasted image 20220422125432.png]]
 # Data preparation
