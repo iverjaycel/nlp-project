@@ -5,7 +5,6 @@ End 2 End NLP Project with Python
 [https://iverjaycel-capstone2-streamlit-app-wy5xs1.streamlitapp.com/
 ](https://nlp-project-jqgpnod6pzgrzy33edamfm.streamlit.app/)
 
-![[Pasted image 20220422125432.png]]
 # Data preparation
 Remove all username using this 
 ![image](https://user-images.githubusercontent.com/53965169/218959805-d997f7b5-18db-41a9-a86d-2406ba4b3030.png)
